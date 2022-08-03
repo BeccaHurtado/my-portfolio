@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    color: rgb(143, 166, 192);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: black;
+    color: brown;
+}
+
+nav a {
+    margin: 0 2rem;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: chartreuse;
+}
+
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color:rgb(143, 166, 192);
+    visibility: hidden;
+    opacity: 0;
+}
